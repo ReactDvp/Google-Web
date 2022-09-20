@@ -1,15 +1,41 @@
-.container{
+
+.leftbar{
     background-color: red;
+    width: 300px;
+    height: 300px;
+    float:left;
+    margin: 5px;
+    border-radius: 20px;
+    list-style-position: inside;
+    
+    
+}
+.content{
+    background-color: rgb(167, 226, 167);
+    width: 300px;
+    height: 300px;
+    float:left;
+    border-radius: 20px;
+    margin-right: 5px;
+    padding: auto;
+   
+    
+}
+.navbar{
+    background-color: yellow;
+    width: 200px;
+    height: 700px;
+    float:left;
+    border-radius: 20px;
 }
 
-
-
-
-
-
-
-
-
+/* .box{
+    background-color: black;
+    width: 800px;
+    height: 700px;
+    float: left;
+    
+} */
 
 
 
