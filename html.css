@@ -1,13 +1,13 @@
+.amblem {
 
-.amblem{
-    
-        display: block;
-        -webkit-user-select: none;
-        margin: auto;
-        background-color: hsl(0, 0%, 90%);
-        transition: background-color 300ms;
-    }
-.searchbar{
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+}
+
+.searchbar {
     background-color: rgb(185, 201, 185);
     width: 1350px;
     height: 70px;
@@ -16,47 +16,50 @@
     margin-block-start: auto;
     padding-bottom: 1px;
 }
-    
 
-.content1{
+
+.content1 {
     background-color: rgb(14, 237, 215);
     width: 445px;
     height: 200px;
-    float:left;
+    float: left;
     margin-top: 5px;
     text-align: center;
-     
+
 }
-.content2{
+
+.content2 {
     background-color: rgb(179, 236, 239);
     width: 445px;
     height: 200px;
-    float:left;
+    float: left;
     margin-top: 5px;
     text-align: center;
     text-decoration-line: underline;
     margin-left: 10px;
-    
-     
+
+
 }
-.content3{
+
+.content3 {
     background-color: rgb(157, 238, 216);
     width: 440px;
     height: 200px;
-    float:left;
+    float: left;
     margin-top: 5px;
     text-align: center;
     margin-left: 10px;
-  
+
 }
-.p{
-    color:rgb(64, 50, 144);
+
+.p {
+    color: rgb(64, 50, 144);
     font-size: 24px;
     font-style: italic;
     text-align: center;
     margin-top: 100px;
-    
-    
+
+
 }
 
 
@@ -103,4 +106,3 @@ li{
     list-style-position: inside;
     background-color: yellow;
 } */
-
