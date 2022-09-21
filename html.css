@@ -1,33 +1,67 @@
 
-.leftbar{
-    background-color: red;
-    width: 300px;
-    height: 300px;
+.amblem{
+    
+        display: block;
+        -webkit-user-select: none;
+        margin: auto;
+        background-color: hsl(0, 0%, 90%);
+        transition: background-color 300ms;
+    }
+.searchbar{
+    background-color: rgb(185, 201, 185);
+    width: 1350px;
+    height: 70px;
+    display: inline-flexbox;
+    text-align: center;
+    margin-block-start: auto;
+    padding-bottom: 1px;
+}
+    
+
+.content1{
+    background-color: rgb(14, 237, 215);
+    width: 445px;
+    height: 200px;
     float:left;
-    margin: 5px;
-    border-radius: 20px;
-    list-style-position: inside;
+    margin-top: 5px;
+    text-align: center;
+     
+}
+.content2{
+    background-color: rgb(179, 236, 239);
+    width: 445px;
+    height: 200px;
+    float:left;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-left: 10px;
+    
+     
+}
+.content3{
+    background-color: rgb(157, 238, 216);
+    width: 440px;
+    height: 200px;
+    float:left;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 10px;
+  
+}
+.p{
+    color:rgb(64, 50, 144);
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 100px;
     
     
 }
-.content{
-    background-color: rgb(167, 226, 167);
-    width: 300px;
-    height: 300px;
-    float:left;
-    border-radius: 20px;
-    margin-right: 5px;
-    padding: auto;
-   
-    
-}
-.navbar{
-    background-color: yellow;
-    width: 200px;
-    height: 700px;
-    float:left;
-    border-radius: 20px;
-}
+
+
+
+
 
 /* .box{
     background-color: black;
